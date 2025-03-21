@@ -4,8 +4,8 @@ import styled from "styled-components";
 const Wrapper = styled.div`
 
 .MovieCard{
-height: 400px;
-width: 300px;
+height: auto;
+width: 200px;
 margin: 10px;
 background-color: #fff;
 display: flex;
@@ -25,8 +25,8 @@ button{
 }
 .poster{
 img{
-height:350px;
-width:300px;
+height:300px;
+width:100%;
 // object-fit:cover;
 }
 .overlay {
@@ -38,6 +38,8 @@ top:0;
 .info{
 width:100%;
 display:block;
+text-align:left;
+font-size:15px; 
 padding:5px;
 }
 `;
