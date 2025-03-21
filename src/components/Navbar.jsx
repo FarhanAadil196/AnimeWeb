@@ -10,7 +10,7 @@ const Nav = styled.nav`
   background-color: #141414;
 
   .logo img {
-    height: 50px;
+    height: 30px;
   }
 
   ul {
